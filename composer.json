@@ -1,0 +1,14 @@
+{
+    "name": "morad/myne-lib",
+    "description": "A library package for my projects",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Morad\\Myne\\": "src/"
+        }
+    },
+    "require": {
+         "php": ">=8.2.0",
+        "Laravel": ">=11.0"
+    }
+}
